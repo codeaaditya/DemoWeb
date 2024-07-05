@@ -1,24 +1,23 @@
-/* .heading{
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-} */
- /* body{
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
     background: url(gymLogo.jpg);
     image-rendering: auto;
- } */
+ }
 
 .navbar{
-    text-decoration: none;
+    position: fixed;
     background: crimson;
     font-family: 'calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    padding-right: 20px;
-    padding-left: 20px;
-
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    width: 100%;
 }
 
 
 .navdiv{
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,40 +59,54 @@ button a{
     font-size: 15px;
 }
 
-.sidebar {
-    text-decoration: none;
+.both{
     display: flex;
-    left: 0;
-    width: 170px;
+}
+
+.sidebar{
+    /* position: fixed; */
+    padding-top: 50px;
     height: 100%;
+}
+
+
+.sidediv {
+    /* display: flex; */
+    width: 130px;
     background: crimson;
+    
 }
 
 .sidestyle a{
     text-decoration: 0;
     display: block;
-    height: 100%;
-    width: 100%;
     line-height: 65px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
-.c2{
-    display: flex;;
+.formdiv{
+    /* display: flex;; */
     justify-content: center;
+    padding-top: 10%;
+    padding-left: 35%;
     font-family: sans-serif;
     color: white;
 }
 
-.c1{
+.formbody{
+    position: fixed;
     border: 1px solid black;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(29, 14, 14, 0.5);
     border-radius: 4px;
-    margin: auto;
 }
 
 input[type=text]{
     display: inline-block;
 }
+
+h2{
+    color: white;
+}
+
