@@ -36,7 +36,7 @@
             <li class="sidestyle"><a href="#">Strength</a></li>
             <li class="sidestyle"><a href="#">Bulk</a></li>
             <li class="sidestyle"><a href="#">Cutting</a></li>
-            <li class="sidestyle"><a href="#">Power LIfting</a></li>
+            <li class="sidestyle"><a href="#">Power Lifting</a></li>
             <li class="sidestyle"><a href="#">Fatloss</a></li>
             <li class="sidestyle"><a href="#">Body Building</a></li>
             <li class="sidestyle"><a href="#">Championship</a></li>
@@ -46,32 +46,32 @@
      </div>
 
      <div class="formdiv">
-        <form class="formbody">
+        <form class="formbody"  onsubmit="return validfun()" action="webPage2.html" >
             <table >
                 <tr>
                     <td>Name: </td>
-                    <td><input type="text" placeholder="Name" name="name"></td>
+                    <td><input type="text" placeholder="Name" id="n1"></td>
                 </tr>
                 <tr>
                     <td>Phone No.: </td>
                    <td> 
-                    <input type="number" maxlength="10" placeholder="987*******" name="phoneNo."></td>
+                    <input type="phone" maxlength="10" placeholder="987*******" id="n2"></td>
                 </tr>
                 <tr>
                     <td>Email: </td>
-                    <td><input type="email" placeholder="hello12@fit.com" name="email"></td>
+                    <td><input type="email" placeholder="hello12@fit.com" id="n3"></td>
                 </tr>
                 <tr>
                     <td>Age: </td>
-                    <td><input type="number" placeholder="23" maxlength="3" name="age"></td>
+                    <td><input type="number" placeholder="23" maxlength="3" id="n4"></td>
                 </tr>
                 <tr>
                     <td>Height: </td>
-                    <td><input type="number" placeholder="5.11" maxlength="4" name="height"></td>
+                    <td><input type="number" placeholder="5.11" maxlength="4" id="n5"></td>
                 </tr>
                 <tr>
                     <td>Weight: </td>
-                    <td><input type="number" placeholder="63" name="weight"></td>
+                    <td><input type="number" placeholder="63" id="n6"></td>
                 </tr>
                 <tr>
                     <td>Gender: </td>
@@ -86,6 +86,6 @@
         </form>
    </div>
    </div>
-
+   <script defer src="./webPage.js"></script>
 </body>
 </html>
