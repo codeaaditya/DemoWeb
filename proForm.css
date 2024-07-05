@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+  
+}
+
+
+body{
+    background-image: url('Hogwarts.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+ 
+}
+
+.c2{
+    /* padding: 1PX; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    padding: 20px; 
+    margin: 30px 30px 20px; 
+    /* width: 550px; */
+    color:white 
+
+}
+
+form{
+    border: 1PX solid black;
+    background: rgba(0, 0, 0, 0.5);  
+}
+
