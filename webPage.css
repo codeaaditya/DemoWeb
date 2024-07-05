@@ -1,0 +1,99 @@
+/* .heading{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+} */
+ /* body{
+    background: url(gymLogo.jpg);
+    image-rendering: auto;
+ } */
+
+.navbar{
+    text-decoration: none;
+    background: crimson;
+    font-family: 'calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+
+.navdiv{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    color: whitesmoke;
+
+}
+.navstyle{
+     list-style: none;
+     display: inline-block;
+}
+
+.navstyle a{
+    text-decoration:  none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button{
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sidebar {
+    text-decoration: none;
+    display: flex;
+    left: 0;
+    width: 170px;
+    height: 100%;
+    background: crimson;
+}
+
+.sidestyle a{
+    text-decoration: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.c2{
+    display: flex;;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.c1{
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: auto;
+}
+
+input[type=text]{
+    display: inline-block;
+}
